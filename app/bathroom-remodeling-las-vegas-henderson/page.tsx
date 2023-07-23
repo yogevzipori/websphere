@@ -11,7 +11,6 @@ import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
 import Plans1 from "/public/las-vegas-remodeling-contractors.jpg";
 import Cover from "../components/cover";
 import Border from "../components/border";
-import ContactForm from "../components/requestForm";
 import HomePageGallery from "../components/gallery/homepage";
 
 export default function BathroomRemodeling() {
@@ -202,7 +201,6 @@ export default function BathroomRemodeling() {
       <Border />
       <HomePageGallery />
 
-      <ContactForm/>
 
     </div>
   );

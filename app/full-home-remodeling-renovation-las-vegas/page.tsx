@@ -10,7 +10,6 @@ import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.jpg";
 import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
 import Plans1 from "../public/las-vegas-remodeling-contractors.jpg";
 import Cover from "../components/cover";
-import ContactForm from "../components/requestForm";
 
 
 export default function HomeRenovation() {
@@ -113,7 +112,6 @@ export default function HomeRenovation() {
         </div>
       </div>
 
-      <ContactForm />
 
       </div>
     

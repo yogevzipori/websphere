@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Kitchen1 from "../../public/las-vegas-kitchen-remodeling-1.jpg";
-import { Form } from "../components/contactForm/Form";
 
 export default function ContactUs() {
     return (
@@ -172,7 +171,6 @@ export default function ContactUs() {
                 {/* </div>
               </form>
             </div> */}
-<Form />    
 
 
           </div>

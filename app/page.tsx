@@ -12,7 +12,6 @@ import Cover from "./components/cover";
 import Border from "./components/border";
 import type { NextPage } from "next";
 import HomePageGallery from "./components/gallery/homepage";
-import ContactForm from "./components/requestForm";
 
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
@@ -220,11 +219,7 @@ export default function Home() {
         </div>
       </div>
 
-
-
-
-
-                  <Border />
+      <Border />
       <div className="overflow-hidden bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
@@ -270,11 +265,7 @@ export default function Home() {
         </div>
       </div>
 
-
       <HomePageGallery />
-
-
-            <ContactForm />
     </div>
   );
 }

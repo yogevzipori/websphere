@@ -1,4 +1,4 @@
-import ContactForm from "../components/requestForm";
+
 
 export default function Remodeling() {
   return (
@@ -7,7 +7,6 @@ export default function Remodeling() {
     <div>page</div>
 
 
-    <ContactForm/>
     </div>
 
   )
