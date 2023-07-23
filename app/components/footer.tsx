@@ -32,7 +32,8 @@ export default function Footer() {
         </nav>
 
         <p className="mt-12 text-center text-xs leading-5 text-gray-500">
-          &copy; All rights reserved to Sphere Remodeling LLC.
+          &copy; All rights reserved to Sphere Remodeling LLC.<br/> 170 S Green Valley Pkwy #300, Henderson, NV 89012<br/> (702) 625-3387
+          <br/> Nevada Licence Number #0090898
         </p>
       </div>
     </footer>
