@@ -115,11 +115,11 @@ export default function Home() {
           <div className="mx-auto max-w-2xl px-4 lg:max-w-none ">
             <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 ">
               <div>
-                <h1 className="text-3xl font-bold tracking-tight text-slate-900">
+                <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   Sphere Remodeling: Transforming Las Vegas Homes and Commercial
                   Spaces with Expert Craftsmanship
                 </h1>
-                <p className="mt-4 text-slate-900 text-md tracking-tight ">
+                <p className="mt-2 text-md tracking-tight text-slate-900">
                   At Sphere Remodeling, we believe that your home should be a
                   reflection of your unique personality and style. Located in
                   the heart of Las Vegas and serving the surrounding Henderson
@@ -167,10 +167,10 @@ export default function Home() {
         <div className="bg-white py-24 sm:py-32 ">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+              <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                 We are a full-service residential design and remodeling service
               </h2>
-              <p className="mt-2 text-lg tracking-tight text-slate-900">
+              <p className="mt-2 text-md tracking-tight text-slate-900">
                 Our founders, who boast over 25 years of combined experience in
                 residential and commercial renovations, personally oversee every
                 project.
@@ -225,13 +225,13 @@ export default function Home() {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
             <div className="lg:pr-4 lg:pt-4">
               <div className="lg:max-w-lg">
-                <h2 className="text-md font-semibold leading-7 text-slate-900">
+                <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   We Put Customers First
                 </h2>
-                <p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                <p className="mt-2 text-md font-bold tracking-tight text-slate-900 sm:text-2xl">
                   If you can dream it - we can build it
                 </p>
-                <p className="mt-6 text-md tracking-tight text-slate-900">
+                <p className="mt-2 text-md tracking-tight text-slate-900">
                   With us, you're not just getting a contractor, you're
                   partnering with experienced professionals who take pride in
                   their work. From meticulous insulation installation that

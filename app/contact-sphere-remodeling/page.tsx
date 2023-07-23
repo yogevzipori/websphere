@@ -14,7 +14,7 @@ export default function ContactUs() {
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:pt-32">
           <div className="px-6 lg:px-8">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Contact us</h2>
+              <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">Contact us</h2>
               <p className="mt-2 text-lg leading-8 text-gray-600">
               Thank you for considering Sphere Remodeling for your home renovation needs. With over 25 years of combined experience, we specialize in transforming homes into extraordinary living spaces. Located in Las Vegas, serving Henderson and the surrounding areas, we understand that your home is a reflection of your unique personality and style. Let us help you create the home of your dreams.              </p>
               {/* <form action="#" method="POST" className="mt-16">
