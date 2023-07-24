@@ -88,21 +88,21 @@ const incentives = [
     imageSrc:
       "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
     description:
-      "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+      "Take the first step towards your dream remodel today! Contact us to schedule your free estimate, and let's bring your vision to life together.",
   },
   {
-    name: "Warranty on Every Project ",
+    name: "1 Year Labore Warranty on Every Project",
     imageSrc:
       "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
     description:
-      "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+      "Our commitment to excellence extends beyond the completion of the remodeling work. ",
   },
   {
-    name: "Top Quality Materials",
+    name: "100% Satisfaction Guarantee",
     imageSrc:
       "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
     description:
-      "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+      "Our commitment is to ensure that you are fully satisfied with the outcome of your remodeling project.",
   },
 ];
 
@@ -171,9 +171,7 @@ export default function Home() {
                 We are a full-service residential design and remodeling service
               </h2>
               <p className="mt-2 text-md tracking-tight text-slate-900">
-                Our founders, who boast over 25 years of combined experience in
-                residential and commercial renovations, personally oversee every
-                project.
+              Every project we undertake is personally overseen by our founders, who collectively possess more than 25 years of invaluable experience in both residential and commercial renovations. With their expertise and hands-on approach, you can rest assured that your project is in the most capable and experienced hands.
               </p>
             </div>
 
@@ -229,7 +227,7 @@ export default function Home() {
                   We Put Customers First
                 </h2>
                 <p className="mt-2 text-md font-bold tracking-tight text-slate-900 sm:text-2xl">
-                  If you can dream it - we can build it
+                We pride ourselves on transforming your ideas and visions into beautifully crafted spaces that exceed your expectations.
                 </p>
                 <p className="mt-2 text-md tracking-tight text-slate-900">
                   With us, you're not just getting a contractor, you're
