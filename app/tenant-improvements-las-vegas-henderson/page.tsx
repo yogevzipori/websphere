@@ -21,7 +21,7 @@ import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.j
 import Plans2 from "/public/kitchen-las-vegas.jpg";
 import HomePageGallery from "../components/gallery/homepage";
 
-export default function PatioCovers() {
+export default function TenantImprovements() {
   return (
     <div>
       <div>
