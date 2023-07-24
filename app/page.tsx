@@ -119,14 +119,20 @@ export default function Home() {
                   Sphere Remodeling: Transforming Las Vegas Homes and Commercial
                   Spaces with Expert Craftsmanship
                 </h1>
-                <p className="mt-2 text-md tracking-tight text-slate-900">
-                  At Sphere Remodeling, we believe that your home should be a
-                  reflection of your unique personality and style. Located in
-                  the heart of Las Vegas and serving the surrounding Henderson
-                  area, we specialize in transforming ordinary homes into
-                  extraordinary living spaces. With over 25 years of combined
-                  experience, our owners ensure every project is handled with
-                  the utmost professionalism, care, and attention to detail.
+                <p className="mt-2 text-md font-bold  tracking-tight text-slate-900">
+                  With over 25 years of combined experience, our owners
+                  personally oversee every project, ensuring that each endeavor
+                  is handled with the utmost professionalism, care, and
+                  attention to detail. Your satisfaction is our top priority,
+                  and we go above and beyond to bring your vision to life.
+                </p>
+                <p>
+                  From crafting bespoke room additions to designing kitchen
+                  remodels that capture your culinary dreams, we infuse your
+                  space with creativity and craftsmanship that truly resonates
+                  with your lifestyle. Let us be your trusted partners in
+                  creating a home that celebrates your individuality and becomes
+                  a testament to your unique taste.
                 </p>
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
@@ -164,14 +170,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white py-24 sm:py-32 ">
+        <div className="bg-white py-12 sm:py-8 ">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                 We are a full-service residential design and remodeling service
               </h2>
-              <p className="mt-2 text-md tracking-tight text-slate-900">
-              Every project we undertake is personally overseen by our founders, who collectively possess more than 25 years of invaluable experience in both residential and commercial renovations. With their expertise and hands-on approach, you can rest assured that your project is in the most capable and experienced hands.
+              <p className="mt-2 text-md font-bold tracking-tight text-slate-900 sm:text-xl">
+                Our founders, with over 25 years of combined expertise in
+                residential and commercial renovations, personally oversee every
+                project. Rest assured, your vision is in the best hands.
               </p>
             </div>
 
@@ -227,7 +235,8 @@ export default function Home() {
                   We Put Customers First
                 </h2>
                 <p className="mt-2 text-md font-bold tracking-tight text-slate-900 sm:text-2xl">
-                We pride ourselves on transforming your ideas and visions into beautifully crafted spaces that exceed your expectations.
+                  We pride ourselves on transforming your ideas and visions into
+                  beautifully crafted spaces that exceed your expectations.
                 </p>
                 <p className="mt-2 text-md tracking-tight text-slate-900">
                   With us, you're not just getting a contractor, you're
