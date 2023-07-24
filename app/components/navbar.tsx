@@ -43,7 +43,31 @@ const services = [
     // icon: FingerPrintIcon,
   },
   {
-    name: "Flooring",
+    name: "Patio Covers",
+    description: "Your customers data will be safe and secure",
+    href: "#",
+    // icon: SquaresPlusIcon,
+  },
+  {
+    name: "Commercial Tenant Improvements ",
+    description: "Your customers data will be safe and secure",
+    href: "#",
+    // icon: SquaresPlusIcon,
+  },
+  {
+    name: "Drywall and Framing",
+    description: "Your customers data will be safe and secure",
+    href: "#",
+    // icon: SquaresPlusIcon,
+  },
+  {
+    name: "Doors and Trim",
+    description: "Your customers data will be safe and secure",
+    href: "#",
+    // icon: SquaresPlusIcon,
+  },
+  {
+    name: "Room Additions",
     description: "Your customers data will be safe and secure",
     href: "#",
     // icon: SquaresPlusIcon,

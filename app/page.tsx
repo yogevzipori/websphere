@@ -51,7 +51,7 @@ const posts = [
 
   {
     id: 4 as number,
-    title: "Drywall" as string,
+    title: "Patio Covers" as string,
     description:
       "Sphere Remodeling, your premier choice in Las Vegas and Henderson for impeccable drywall installations. We deliver durable, smooth surfaces, executed with precision and tailored to your needs. Expect excellence and professionalism in every project." as string,
 
@@ -61,7 +61,7 @@ const posts = [
 
   {
     id: 5 as number,
-    title: "Flooring" as string,
+    title: "Commercial Tenant Improvements " as string,
 
     description:
       "Sphere Remodeling, your trusted partner in Las Vegas and Henderson for precision flooring installations. We provide a range of durable and stylish flooring options, expertly fitted for a seamless, lasting finish. Quality service tailored to your preferences and executed to the highest standards." as string,
@@ -72,7 +72,7 @@ const posts = [
 
   {
     id: 6 as number,
-    title: "Garage Conversion" as string,
+    title: "Room Additions and Garage Conversions" as string,
 
     description:
       "Sphere Remodeling, your go-to in Las Vegas and Henderson for seamless garage conversions. We repurpose your garage, creating functional, livable spaces. A cost-effective solution to home expansion." as string,
