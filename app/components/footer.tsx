@@ -5,8 +5,8 @@
 
 const navigation = {
   main: [
-    { name: 'About', href: '/about' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'About', href: '/about-sphere-remodeling-construction-las-vegas-henderson' },
+    { name: 'Contact Us', href: '/contact-sphere-remodeling' },
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms & Conditions', href: '/terms' },
    ]

@@ -163,7 +163,7 @@ export default function NavBar() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/about-sphere-remodeling-construction-las-vegas-henderson" className="text-sm font-semibold leading-6 text-gray-900">
             About
           </a>
           <a href="/contact-sphere-remodeling" className="text-sm font-semibold leading-6 text-gray-900">

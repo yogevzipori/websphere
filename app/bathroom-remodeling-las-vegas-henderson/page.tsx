@@ -23,21 +23,16 @@ export default function BathroomRemodeling() {
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-              <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Bathroom Remodeling
-              </h2>
+              <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
+              Designing Your Dream Bathroom: Crafted to Perfection
+              </h1>
               <p className="mt-8 text-md font-bold  tracking-tight text-slate-900">
-                We can help you design and build your dream kitchen. Whether
-                you're looking for a modern, traditional, or rustic style, we
-                have the expertise to make it happen. Our team of designers will
-                work with you every step of the way to ensure that your new
-                kitchen is perfect for you and your family.
+                At Sphere Remodeling, where we specialize in turning ordinary bathrooms into extraordinary havens of relaxation and elegance. With over 25 years of combined experience in residential and commercial projects, our owners personally oversee every transformation, bringing a wealth of expertise and dedication to each endeavor.
+
+
               </p>
               <p className="mt-2 text-md tracking-tight text-slate-900">
-                You can trust us with all of your kitchen remodeling needs, from
-                start to finish. We'll take care of everything from demolition
-                to installation so that you don't have to worry about anything
-                but enjoying your new space!
+              We firmly believe that your home should be an authentic reflection of your unique personality and style. That's why we're passionate about transforming bathrooms into luxurious oases that perfectly suit your preferences.
               </p>
               <div className="mt-10 flex">
                 <a
