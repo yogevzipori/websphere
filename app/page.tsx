@@ -24,7 +24,7 @@ const posts = [
     title: "Home Remodeling" as string,
     description:
       "Sphere Remodeling, your home transformation partner in Las Vegas and Henderson. We reimagine, redesign, and recreate your living spaces, delivering a seamless blend of style, functionality, and quality. Embrace the dream home experience with our comprehensive home remodels." as string,
-    href: "#" as string,
+    href: "/home-remodeling-las-vegas" as string,
     image: HomeRemodel1 as StaticImageData,
   },
 

@@ -27,7 +27,7 @@ const services = [
   {
     name: "Home Remodeling",
     description: "Get a better understanding where your traffic is coming from",
-    href: "/kitchen-remodeling-las-vegas-henderson", 
+    href: "/home-remodeling-las-vegas", 
     // icon: ChartPieIcon,
   },
   {
