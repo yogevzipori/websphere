@@ -91,9 +91,9 @@ export default function PatioCovers() {
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-2">
-              <h2 className="text-lg font-bold tracking-tight text-slate-900 sm:text-2xl mt-2">
-                With Sphere Remodeling, you're not just hiring a contractor{" "}
-              </h2>
+              <h1 className="text-lg font-bold tracking-tight text-slate-900 sm:text-2xl mt-2">
+                With Sphere Remodeling, you're not just hiring a contractor
+              </h1>
               <p className="mt-4 text-md font-bold tracking-tight text-slate-900">
               From crafting exceptional patio covers that elevate your outdoor living experience to transforming your kitchen into a culinary haven, Sphere Remodeling's passion for creating extraordinary living spaces knows no bounds. As your trusted partners, we take pride in turning your visions into reality, both inside and outside your home, with our unparalleled expertise and unwavering commitment to your satisfaction.
               </p>
