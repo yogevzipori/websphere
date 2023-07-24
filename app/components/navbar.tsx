@@ -45,13 +45,13 @@ const services = [
   {
     name: "Patio Covers",
     description: "Your customers data will be safe and secure",
-    href: "#",
+    href: "/patio-covers-contractor-las-vegas-henderson",
     // icon: SquaresPlusIcon,
   },
   {
     name: "Commercial Tenant Improvements ",
     description: "Your customers data will be safe and secure",
-    href: "#",
+    href: "/tenant-improvements-las-vegas-henderson",
     // icon: SquaresPlusIcon,
   },
   {
@@ -211,14 +211,7 @@ export default function NavBar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              {/* <Image
-        
-              src={Logo}
-              alt=""
-              width={250}
-              height={210}
-            
-            /> */}
+         
             </a>
             <button
               type="button"

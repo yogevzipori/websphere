@@ -55,7 +55,7 @@ const posts = [
     description:
       "Sphere Remodeling, your premier choice in Las Vegas and Henderson for impeccable drywall installations. We deliver durable, smooth surfaces, executed with precision and tailored to your needs. Expect excellence and professionalism in every project." as string,
 
-    href: "#" as string,
+    href: "/patio-covers-contractor-las-vegas-henderson" as string,
     image: Bathroom1 as StaticImageData,
   },
 
@@ -66,7 +66,7 @@ const posts = [
     description:
       "Sphere Remodeling, your trusted partner in Las Vegas and Henderson for precision flooring installations. We provide a range of durable and stylish flooring options, expertly fitted for a seamless, lasting finish. Quality service tailored to your preferences and executed to the highest standards." as string,
 
-    href: "#" as string,
+    href: "/tenant-improvements-las-vegas-henderson" as string,
     image: Bathroom1 as StaticImageData,
   },
 
