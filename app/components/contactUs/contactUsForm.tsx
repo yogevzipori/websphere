@@ -1,23 +1,29 @@
 "use client";
 import Router from "next/router";
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 import axios from "axios";
 
-const ContactUsForm: any = ()  => {
-  const [formData, setFormData] = useState({
+type FormState = {
+  EMAIL: string;
+  FNAME: string;
+  LNAME: string;
+  PHONE: string;
+};
+
+const ContactUsForm: React.FC = () => {
+  const [formData, setFormData] = useState<FormState>({
     EMAIL: "",
     FNAME: "",
     LNAME: "",
     PHONE: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-   
 
     const config = {
       headers: {
@@ -34,13 +40,11 @@ const ContactUsForm: any = ()  => {
         config
       );
 
-      console.log(response.status); // To check the status
-
       if (response.status === 200) {
         console.log("Data sent successfully");
       }
     } catch (error) {
-      console.error("Failed to send the data:", error); // To print the error
+      console.error("Failed to send the data:", error); // Print only the error message
     } 
   };
 
