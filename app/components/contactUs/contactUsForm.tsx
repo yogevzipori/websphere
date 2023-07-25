@@ -31,11 +31,14 @@ const ContactUsForm: React.FC = () => {
       },
     };
 
+    const url = "https://sphereremodeling.us21.list-manage.com/subscribe/post?u=ecf7e32e68345cc3d9a5c44c6&id=dd3036066d&f_id=00ce5de1f0";
+
+
     const urlParams = new URLSearchParams(formData).toString();
 
     try {
       const response = await axios.post(
-        "https://sphereremodeling.us21.list-manage.com/subscribe/post?u=ecf7e32e68345cc3d9a5c44c6&amp;id=dd3036066d&amp;f_id=00ce5de1f0",
+        url,
         urlParams,
         config
       );
@@ -49,9 +52,9 @@ const ContactUsForm: React.FC = () => {
   };
 
   return (
-    <div className="bg-white clear:left font-sans text-base w-96">
-      <form
-        action="https://sphereremodeling.us21.list-manage.com/subscribe/post?u=ecf7e32e68345cc3d9a5c44c6&amp;id=dd3036066d&amp;f_id=00ce5de1f0"
+   <div className="bg-slate-100 mt-20 flex items-center justify-center h-screen">
+  <form className="bg-white p-6 rounded-lg shadow-md w-96"
+        action="https://sphereremodeling.us21.list-manage.com/subscribe/post?u=ecf7e32e68345cc3d9a5c44c6&id=dd3036066d&f_id=00ce5de1f0"
         method="POST"
         onSubmit={handleSubmit}
       >
@@ -62,11 +65,12 @@ const ContactUsForm: React.FC = () => {
           <input
             type="text"
             name="FNAME"
-            className="required text"
             id="mce-FNAME"
             required
             value={formData.FNAME}
             onChange={handleInputChange}
+            className="w-full my-3 flex-1 py-2 px-4 border rounded-md"
+
           />
         </div>
         <div className="my-3">
@@ -76,11 +80,12 @@ const ContactUsForm: React.FC = () => {
           <input
             type="text"
             name="LNAME"
-            className="required text"
             id="mce-LNAME"
             required
             value={formData.LNAME}
             onChange={handleInputChange}
+            className="w-full my-3 flex-1 py-2 px-4 border rounded-md"
+
           />
         </div>
         <div className="my-3">
@@ -90,24 +95,27 @@ const ContactUsForm: React.FC = () => {
           <input
             type="text"
             name="PHONE"
-            className="required text"
             id="mce-PHONE"
             value={formData.PHONE}
             onChange={handleInputChange}
+            className="w-full my-3 flex-1 py-2 px-4 border rounded-md"
+
           />
         </div>
-        <div className="my-3">
+        <div className="my-3 ">
           <label htmlFor="EMAIL" className="block">
             Email Address <span className="text-red-500">*</span>
           </label>
           <input
             type="email"
             name="EMAIL"
-            className="required email"
             id="mce-EMAIL"
             required
             value={formData.EMAIL}
             onChange={handleInputChange}
+            // className="flex-1 py-2 px-24 border rounded-md"
+            className="w-full my-3 flex-1 py-2 px-4 border rounded-md"
+
           />
         </div>
         <div className="my-3">
