@@ -1,8 +1,10 @@
+"use client"
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
 import Image from "next/image";
+import Carousel2 from "../components/carousel/carouselRandom/carousel";
 
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.jpg";
@@ -53,7 +55,6 @@ export default function KitchenRemodeling() {
               </div>
             </div>
           </div>
-                  
 
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <Image
@@ -66,6 +67,7 @@ export default function KitchenRemodeling() {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+          
                 <p>
                   {/* Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
                   risus enim. Mattis mauris semper sed amet vitae sed turpis id.
@@ -115,7 +117,6 @@ export default function KitchenRemodeling() {
                   </li>
                 </ul> */}
 
-
                 <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                 Imagine your dream home, and we'll make it a reality! Our team of remodeling experts has over 25 years of experience, ensuring your project is in the best hands.
 
@@ -128,6 +129,7 @@ Are you ready to embark on this home remodeling journey with us? Let's create a 
 Step into our world of home remodeling, where dreams come true with a touch of magic!
 
                 </p>
+        <Carousel2 />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                 Unlock the hidden potential of your entire home with our transformative touch
@@ -140,9 +142,11 @@ Step into our world of home remodeling, where dreams come true with a touch of m
           </div>
         </div>
       </div>
-      <HomePageGallery />
 
       <Border />
+      <div className="px-6">
+      <Carousel2 />
+      </div>
 
       <div className="overflow-hidden bg-white py-12">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -168,6 +172,9 @@ Step into our world of home remodeling, where dreams come true with a touch of m
                 </a>
               </div>
             </div>
+
+           
+
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 
@@ -206,7 +213,9 @@ Step into our world of home remodeling, where dreams come true with a touch of m
           </div>
         </div>
       </div>
-
+      <div className="px-6">
+      <Carousel2 />
+      </div>
     </div>
   );
 }

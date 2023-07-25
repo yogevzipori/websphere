@@ -1,9 +1,10 @@
+"use client"
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
 import Image from "next/image";
-
+import Carousel2 from "../components/carousel/carouselRandom/carousel";
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.jpg";
 import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.jpg";
@@ -31,14 +32,12 @@ export default function KitchenRemodeling() {
           />
         </div>
       </div>
-      <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-white px-6 py-8 sm:py-8 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                {/* <p className="text-base font-semibold leading-7 text-indigo-600">
-                  Deploy faster
-                </p> */}
+              
                 <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   Kitchen Remodeling Las Vegas & Henderson
                 </h1>
@@ -66,55 +65,7 @@ export default function KitchenRemodeling() {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-                <p>
-                  {/* Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id. */}
-                </p>
-                {/* <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        Push to deploy.
-                      </strong>{" "}
-                      Our breadth of services extends beyond kitchens. We apply the same meticulous attention to detail in every facet of our work - from installing energy-efficient insulation to executing flawless drywall work and from fitting perfectly balanced overhead doors to adding the finishing touches on any renovation project.
-                    </span>
-                  </li>
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        SSL certificates.
-                      </strong>{" "}
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui lorem cupidatat commodo.
-                    </span>
-                  </li>
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        Database backups.
-                      </strong>{" "}
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
-                    </span>
-                  </li>
-                </ul> */}
-
+               
 
                 <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                 You can trust us with all of your kitchen remodeling needs, from
@@ -123,7 +74,8 @@ export default function KitchenRemodeling() {
                 but enjoying your new space!
 
                 </p>
-
+                <Carousel2 />
+                
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   We're more than just a kitchen remodeling company
                 </h2>
@@ -142,7 +94,9 @@ export default function KitchenRemodeling() {
           </div>
         </div>
       </div>
-      <HomePageGallery />
+      <div className="px-6 pb-12">
+      <Carousel2 />
+      </div>
 
       <Border />
 
@@ -217,6 +171,9 @@ export default function KitchenRemodeling() {
             </div>
           </div>
         </div>
+        <div className="px-96 pb-12">
+      <Carousel2 />
+      </div>
       </div>
 
     </div>

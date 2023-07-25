@@ -173,9 +173,9 @@ export default function Home() {
 
 
             </div>
-            <div className="my-22">
+           
         <Carousel1 />
-        </div>
+     
           </div>
         </div>
 
