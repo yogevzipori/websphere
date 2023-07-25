@@ -12,6 +12,7 @@ import Cover from "./components/cover";
 import Border from "./components/border";
 import type { NextPage } from "next";
 import HomePageGallery from "./components/gallery/homepage";
+import Carousel1 from "./components/carousel/carouselHomePage/carousel";
 
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
@@ -166,9 +167,18 @@ export default function Home() {
                   </div>
                 </div>
               ))}
+
+
+
+
+
             </div>
+            <div className="my-22">
+        <Carousel1 />
+        </div>
           </div>
         </div>
+
 
         <div className="bg-white py-12 sm:py-8 ">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -271,7 +281,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <HomePageGallery />
     </div>
   );
