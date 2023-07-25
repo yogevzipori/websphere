@@ -1,8 +1,11 @@
+"use client";
 
 // import React from "react";
 // import "../styles/globals.css";
+import Link from "next/link"
 
-
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 const navigation = {
   main: [
     { name: 'About', href: '/about-sphere-remodeling-construction-las-vegas-henderson' },
@@ -32,7 +35,8 @@ export default function Footer() {
         </nav>
 
         <p className="mt-12 text-center text-xs leading-5 text-gray-500">
-          &copy; All rights reserved to Sphere Remodeling LLC.<br/> 170 S Green Valley Pkwy #300, Henderson, NV 89012<br/> (702) 625-3387
+          &copy; All rights reserved to Sphere Remodeling LLC.<br/>170 S Green Valley Pkwy #300, Henderson, NV 89012<br/><Link
+        href="tel:7026253387">  (702) 625-3387 </Link>
           <br/> Nevada Licence Number #0090898
         </p>
       </div>

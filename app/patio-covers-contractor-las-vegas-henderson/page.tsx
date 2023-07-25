@@ -1,10 +1,9 @@
-"use client";
-
-
+"use client"
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
+import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Image from "next/image";
 
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
@@ -13,13 +12,14 @@ import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.jpg";
 import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
 import Plans1 from "../public/las-vegas-remodeling-contractors.jpg";
 import Cover from "../components/cover";
-import Border from "../components/border";
+import Border from "../components/Banner";
 import BestKitchen1 from "/public/best-kitchen-contractor-las-vegas-henderson.jpg";
 import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.jpg";
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.jpg";
 import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.jpg";
 import Plans2 from "/public/kitchen-las-vegas.jpg";
 import HomePageGallery from "../components/gallery/homepage";
+import Banner from "../components/Banner";
 
 export default function PatioCovers() {
   return (
@@ -85,7 +85,7 @@ export default function PatioCovers() {
       </div>
       <HomePageGallery />
 
-      <Border />
+      <Banner/>
 
       <div className="overflow-hidden bg-white py-12">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -103,12 +103,7 @@ export default function PatioCovers() {
 
               </p>
               <div className="mt-10 flex">
-                <a
-                  href="#"
-                  className="rounded-md bg-[#968FA6] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0B0D40] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Get a Free Quote <span aria-hidden="true">&rarr;</span>
-                </a>
+              <CallForFreeQuote />
               </div>
             </div>
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

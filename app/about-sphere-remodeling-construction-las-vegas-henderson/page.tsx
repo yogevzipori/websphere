@@ -1,3 +1,5 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
@@ -10,45 +12,58 @@ import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.jpg";
 import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
 import Plans1 from "../../public/las-vegas-remodeling-contractors.jpg";
 import Cover from "../components/cover";
-
+import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 
 export default function About() {
-    return (
-        <div>
-        <div className="bg-white py-24 sm:py-32">
+  return (
+    <div>
+      <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <p className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">Sphere Remodeling</p>
-            <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-2xl">Redefining Your Living Spaces with Exceptional Expertise</h1>
+            <p className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
+              Sphere Remodeling
+            </p>
+            <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-2xl">
+              Redefining Your Living Spaces with Exceptional Expertise
+            </h1>
             <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
               <div>
                 <p>
-                We are masters of the art of home transformation. As a premier home remodeling company in Las Vegas and Henderson, we have been elevating living spaces for over 25 years with unparalleled expertise and dedication. Our passion lies in turning houses into homes that exude sophistication and functionality.For business owners, we excel in commercial tenant improvement, breathing new life into your workspace.
+                  We are masters of the art of home transformation. As a premier
+                  home remodeling company in Las Vegas and Henderson, we have
+                  been elevating living spaces for over 25 years with
+                  unparalleled expertise and dedication. Our passion lies in
+                  turning houses into homes that exude sophistication and
+                  functionality.For business owners, we excel in commercial
+                  tenant improvement, breathing new life into your workspace.
                 </p>
                 <p className="mt-4">
-                We offer a diverse range of services, catering to every aspect of home improvement. Whether you desire a room addition to expand your living area, a kitchen remodeling that reflects your culinary dreams, or a stylish upgrade for your trim and doors, we have the knowledge and skills to make it happen.
-
-
+                  We offer a diverse range of services, catering to every aspect
+                  of home improvement. Whether you desire a room addition to
+                  expand your living area, a kitchen remodeling that reflects
+                  your culinary dreams, or a stylish upgrade for your trim and
+                  doors, we have the knowledge and skills to make it happen.
                 </p>
               </div>
               <div>
                 <p>
-                We extend our mastery to the great outdoors as well. Create a relaxing sanctuary with our patio cover installations, where you can unwind and connect with nature without compromising on comfort.
-
-
+                  We extend our mastery to the great outdoors as well. Create a
+                  relaxing sanctuary with our patio cover installations, where
+                  you can unwind and connect with nature without compromising on
+                  comfort.
                 </p>
                 <p className="mt-4">
-                At Sphere Remodeling, your dream home is our mission. We are passionate about creating spaces that resonate with your personality and lifestyle. Our commitment to excellence, attention to detail, and timely execution have earned us the trust of countless satisfied clients. 
+                  At Sphere Remodeling, your dream home is our mission. We are
+                  passionate about creating spaces that resonate with your
+                  personality and lifestyle. Our commitment to excellence,
+                  attention to detail, and timely execution have earned us the
+                  trust of countless satisfied clients.
                 </p>
               </div>
             </div>
             <div className="mt-8 flex">
-              <a
-                href="#"
-                className="rounded-md bg-[#968FA6] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0B0D40] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get a Free Quote <span aria-hidden="true">&rarr;</span>
-              </a>
+            <CallForFreeQuote />
+
             </div>
           </div>
         </div>
@@ -66,8 +81,6 @@ export default function About() {
         </div>
       </div>
 
-
-   
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
         <Image
           src={HomeRenovation1}
@@ -82,7 +95,7 @@ export default function About() {
             className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             style={{
               clipPath:
-                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
           />
         </div>
@@ -94,7 +107,7 @@ export default function About() {
             className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
             style={{
               clipPath:
-                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
           />
         </div>
@@ -104,13 +117,8 @@ export default function About() {
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
             fugiat veniam occaecat fugiat aliqua.
           </p> */}
-
         </div>
       </div>
-
-
-      </div>
-    
-    )
-  }
-  
+    </div>
+  );
+}

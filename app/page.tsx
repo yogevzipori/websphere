@@ -9,10 +9,10 @@ import ContactUsForm from "./components/contactUs/contactUsForm";
 import FullHomeRenovation from "/public/full-home-remodeling-renovation-las-vegas-henderson.jpg";
 import BestContractor from "/public/best-remodeling-contractor-las-vegas.jpg";
 import Cover from "./components/cover";
-import Border from "./components/border";
 import type { NextPage } from "next";
 import HomePageGallery from "./components/gallery/homepage";
 import Carousel1 from "./components/carousel/carouselHomePage/carousel";
+import Banner from "./components/Banner";
 
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
@@ -235,7 +235,8 @@ export default function Home() {
         </div>
       </div>
 
-      <Border />
+      <Banner/>
+
       <div className="overflow-hidden bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">

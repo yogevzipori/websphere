@@ -1,4 +1,4 @@
-"use client"
+"use client";
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
@@ -12,13 +12,15 @@ import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.jpg";
 import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
 import Plans1 from "../public/las-vegas-remodeling-contractors.jpg";
 import Cover from "../components/cover";
-import Border from "../components/border";
+import Border from "../components/Banner";
 import BestKitchen1 from "/public/best-kitchen-contractor-las-vegas-henderson.jpg";
 import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.jpg";
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.jpg";
 import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.jpg";
 import Plans2 from "/public/kitchen-las-vegas.jpg";
 import HomePageGallery from "../components/gallery/homepage";
+import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
+import Banner from "../components/Banner";
 
 export default function KitchenRemodeling() {
   return (
@@ -29,7 +31,6 @@ export default function KitchenRemodeling() {
             src={Plans2}
             alt=""
             className="absolute inset-0 -z-10 h-full w-full object-cover"
-          
           />
         </div>
       </div>
@@ -42,7 +43,8 @@ export default function KitchenRemodeling() {
                   Deploy faster
                 </p> */}
                 <h1 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Unleash the Magic of Home Remodeling: Elevate Your Space in Las Vegas & Henderson with Sphere Remodeling
+                  Unleash the Magic of Home Remodeling: Elevate Your Space in
+                  Las Vegas & Henderson with Sphere Remodeling
                 </h1>
                 <p className="mt-8 text-md font-bold  tracking-tight text-slate-900">
                   Our owners, possessing over 25 years of combined experience in
@@ -50,7 +52,7 @@ export default function KitchenRemodeling() {
                   Remodeling, bringing a wealth of expertise and dedication to
                   every transformation we undertake. From state-of-the-art
                   kitchens in high-end restaurants to stylish home renovations,
-                  our expertise in carpentry and renovation shines through. 
+                  our expertise in carpentry and renovation shines through.
                 </p>
               </div>
             </div>
@@ -68,74 +70,33 @@ export default function KitchenRemodeling() {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
           
-                <p>
-                  {/* Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id. */}
-                </p>
-                {/* <ul role="list" className="mt-8 space-y-8 text-gray-600">
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        Push to deploy.
-                      </strong>{" "}
-                      Our breadth of services extends beyond kitchens. We apply the same meticulous attention to detail in every facet of our work - from installing energy-efficient insulation to executing flawless drywall work and from fitting perfectly balanced overhead doors to adding the finishing touches on any renovation project.
-                    </span>
-                  </li>
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        SSL certificates.
-                      </strong>{" "}
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui lorem cupidatat commodo.
-                    </span>
-                  </li>
-                  <li className="flex gap-x-3">
-                    <div
-                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <strong className="font-semibold text-gray-900">
-                        Database backups.
-                      </strong>{" "}
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
-                    </span>
-                  </li>
-                </ul> */}
-
+              
                 <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
-                Imagine your dream home, and we'll make it a reality! Our team of remodeling experts has over 25 years of experience, ensuring your project is in the best hands.
-
-We take care of everything, so you can sit back and enjoy the process. From demolishing the old to crafting the new, we'll handle it all with ease.
-
-In the heart of the desert, your home will shine with a new light. Our passion for delivering outstanding results ensures your satisfaction.
-
-Are you ready to embark on this home remodeling journey with us? Let's create a space that feels like home sweet home. With us, it's easy, enjoyable, and stress-free.
-
-Step into our world of home remodeling, where dreams come true with a touch of magic!
-
+                  Imagine your dream home, and we'll make it a reality! Our team
+                  of remodeling experts has over 25 years of experience,
+                  ensuring your project is in the best hands. We take care of
+                  everything, so you can sit back and enjoy the process. From
+                  demolishing the old to crafting the new, we'll handle it all
+                  with ease. In the heart of the desert, your home will shine
+                  with a new light. Our passion for delivering outstanding
+                  results ensures your satisfaction. Are you ready to embark on
+                  this home remodeling journey with us? Let's create a space
+                  that feels like home sweet home. With us, it's easy,
+                  enjoyable, and stress-free. Step into our world of home
+                  remodeling, where dreams come true with a touch of magic!
                 </p>
-        <Carousel2 />
+                <Carousel2 />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
-                Unlock the hidden potential of your entire home with our transformative touch
+                  Unlock the hidden potential of your entire home with our
+                  transformative touch
                 </h2>
                 <p className="mt-2 text-md tracking-tight text-slate-900">
-                From chic living rooms to glamorous bedrooms, and from lavish bathrooms to awe-inspiring kitchens, we bring a touch of coolness to every corner of your home. Each project is an artistic expression, uniquely tailored to match your distinct taste and style.
+                  From chic living rooms to glamorous bedrooms, and from lavish
+                  bathrooms to awe-inspiring kitchens, we bring a touch of
+                  coolness to every corner of your home. Each project is an
+                  artistic expression, uniquely tailored to match your distinct
+                  taste and style.
                 </p>
               </div>
             </div>
@@ -143,9 +104,9 @@ Step into our world of home remodeling, where dreams come true with a touch of m
         </div>
       </div>
 
-      <Border />
+      <Banner />
       <div className="px-6">
-      <Carousel2 />
+        <Carousel2 />
       </div>
 
       <div className="overflow-hidden bg-white py-12">
@@ -153,31 +114,34 @@ Step into our world of home remodeling, where dreams come true with a touch of m
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-2">
               <h2 className="text-lg font-bold tracking-tight text-slate-900 sm:text-2xl mt-2">
-              Step into a realm of unparalleled creativity and expertise with Sphere Remodeling - we're your partners in making dreams a reality{" "}
+                Step into a realm of unparalleled creativity and expertise with
+                Sphere Remodeling - we're your partners in making dreams a
+                reality
               </h2>
               <p className="mt-4 text-md font-bold tracking-tight text-slate-900">
-              Whether you envision a modern masterpiece, a timeless traditional space, or a charming rustic retreat, we've got the know-how to bring it to life. Our talented designers will collaborate with you throughout the entire process, ensuring that every detail aligns with your vision and perfectly complements your family's needs.
+                Whether you envision a modern masterpiece, a timeless
+                traditional space, or a charming rustic retreat, we've got the
+                know-how to bring it to life. Our talented designers will
+                collaborate with you throughout the entire process, ensuring
+                that every detail aligns with your vision and perfectly
+                complements your family's needs.
               </p>
               <p className="mt-2 text-md tracking-tight text-slate-900">
-             
-              From concept to completion, your dream kitchen will become a reality that not only dazzles the eyes but also warms the heart. Let us be your partners in creating a kitchen space that will be a source of joy and inspiration for years to come. Get ready to fall in love with your new kitchen – designed and built with passion and expertise, exclusively for you.
-
+                From concept to completion, your dream kitchen will become a
+                reality that not only dazzles the eyes but also warms the heart.
+                Let us be your partners in creating a kitchen space that will be
+                a source of joy and inspiration for years to come. Get ready to
+                fall in love with your new kitchen – designed and built with
+                passion and expertise, exclusively for you.
               </p>
               <div className="mt-10 flex">
-                <a
-                  href="#"
-                  className="rounded-md bg-[#968FA6] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0B0D40] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Get a Free Quote <span aria-hidden="true">&rarr;</span>
-                </a>
+              <CallForFreeQuote />
+
               </div>
             </div>
 
-           
-
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                
                 <Image
                   src={Kitchen1}
                   alt=""
@@ -214,7 +178,7 @@ Step into our world of home remodeling, where dreams come true with a touch of m
         </div>
       </div>
       <div className="px-6">
-      <Carousel2 />
+        <Carousel2 />
       </div>
     </div>
   );

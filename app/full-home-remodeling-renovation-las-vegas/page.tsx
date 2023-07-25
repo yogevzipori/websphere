@@ -1,7 +1,9 @@
+"use client"
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
+import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Image from "next/image";
 
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
@@ -47,12 +49,8 @@ export default function HomeRenovation() {
               </div>
             </div>
             <div className="mt-10 flex">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get started
-              </a>
+              <CallForFreeQuote />
+            
             </div>
           </div>
         </div>
