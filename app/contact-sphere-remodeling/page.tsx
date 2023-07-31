@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Kitchen1 from "../../public/las-vegas-kitchen-remodeling-1.jpg";
+import Kitchen1 from "../../public/las-vegas-kitchen-remodeling-1.webp";
 import ContactUsForm from "../components/contactUs/contactUsForm";
 
 export default function ContactUs() {
