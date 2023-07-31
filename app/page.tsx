@@ -1,13 +1,11 @@
 "use client";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
-import Kitchen1 from "../public/las-vegas-kitchen-remodeling-1.jpg";
-import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.jpg";
-import HomeRenovation1 from "../public/home-renovation-las-vegas-henderson-1.jpg";
-import ContactUsForm from "./components/contactUs/contactUsForm";
-import FullHomeRenovation from "/public/full-home-remodeling-renovation-las-vegas-henderson.jpg";
-import BestContractor from "/public/best-remodeling-contractor-las-vegas.jpg";
+import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
+import Kitchen1 from "../public/las-vegas-kitchen-remodeling-1.webp";
+import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.webp";
+import HomeRenovation1 from "../public/home-renovation-las-vegas-henderson-1.webp";
+import BestContractor from "/public/best-remodeling-contractor-las-vegas.webp";
 import Cover from "./components/cover";
 import type { NextPage } from "next";
 import HomePageGallery from "./components/gallery/homepage";

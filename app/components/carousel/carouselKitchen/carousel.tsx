@@ -2,11 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 const carouselItems = [
-  '/las-vegas-bathroom-remodeling-1.jpg',
-  '/home-renovation-las-vegas-henderson-1.jpg',
-  '/full-home-remodeling-renovation-las-vegas-henderson.jpg',
-  '/best-kitchen-renovation-las-vegas-henderson.jpg',
-  '/best-kitchen-contractor-las-vegas-henderson2.jpg',
+  '/las-vegas-bathroom-remodeling-1.webp',
+  '/home-renovation-las-vegas-henderson-1.webp',
+  '/best-kitchen-renovation-las-vegas-henderson.webp',
+  '/best-kitchen-contractor-las-vegas-henderson2.webp',
 ];
 
 

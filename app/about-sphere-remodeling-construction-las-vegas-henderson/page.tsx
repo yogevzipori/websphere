@@ -6,11 +6,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.jpg";
-import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.jpg";
-import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.jpg";
-import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.jpg";
-import Plans1 from "../../public/las-vegas-remodeling-contractors.jpg";
+import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
+import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
+import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.webp";
+import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.webp";
+import Plans1 from "../../public/las-vegas-remodeling-contractors.webp";
 import Cover from "../components/cover";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 
