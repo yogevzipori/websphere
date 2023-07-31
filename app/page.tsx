@@ -125,14 +125,23 @@ export default function Home() {
                   attention to detail. Your satisfaction is our top priority,
                   and we go above and beyond to bring your vision to life.
                 </p>
-                <p>
+                <div>
                   From crafting bespoke room additions to designing kitchen
                   remodels that capture your culinary dreams, we infuse your
                   space with creativity and craftsmanship that truly resonates
                   with your lifestyle. Let us be your trusted partners in
                   creating a home that celebrates your individuality and becomes
                   a testament to your unique taste.
-                </p>
+                  <div className="mt-8">
+                <Link 
+                href="tel:7026253387"
+                    className="inline-flex rounded-md bg-[#0B0D40] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#968FA6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Get a Free Quote
+                  </Link>
+                </div>
+                </div>
+                
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                 <Image
@@ -176,7 +185,6 @@ export default function Home() {
      
           </div>
         </div>
-
 
         <div className="bg-white py-12 sm:py-8 ">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

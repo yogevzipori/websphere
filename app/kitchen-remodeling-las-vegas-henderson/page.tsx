@@ -68,13 +68,20 @@ export default function KitchenRemodeling() {
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                
 
-                <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
+                <div className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                 You can trust us with all of your kitchen remodeling needs, from
                 start to finish. We'll take care of everything from demolition
                 to installation so that you don't have to worry about anything
                 but enjoying your new space!
-
-                </p>
+                <div className="mt-8">
+                <Link 
+                href="tel:7026253387"
+                    className="inline-flex rounded-md bg-[#0B0D40] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#968FA6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Call Us Now
+                  </Link>
+                </div>
+                </div>
                 <Carousel2 />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">

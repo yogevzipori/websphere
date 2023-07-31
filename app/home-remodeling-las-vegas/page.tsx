@@ -69,7 +69,7 @@ export default function KitchenRemodeling() {
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
           
               
-                <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
+                <div className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                   Imagine your dream home, and we'll make it a reality! Our team
                   of remodeling experts has over 25 years of experience,
                   ensuring your project is in the best hands. We take care of
@@ -82,7 +82,15 @@ export default function KitchenRemodeling() {
                   that feels like home sweet home. With us, it's easy,
                   enjoyable, and stress-free. Step into our world of home
                   remodeling, where dreams come true with a touch of magic!
-                </p>
+                  <div className="mt-8">
+                <Link 
+                href="tel:7026253387"
+                    className="inline-flex rounded-md bg-[#0B0D40] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#968FA6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Call Us Now
+                  </Link>
+                </div>
+                </div>
                 <Carousel2 />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">

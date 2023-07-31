@@ -65,10 +65,17 @@ export default function TenantImprovements() {
               <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
          
 
-                <p className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
+                <div className="lg:-mt-8 sm:-mt-14 text-md tracking-tight text-slate-900">
                 With our vast expertise in Tenant Improvements, we specialize in transforming office buildings, retail spaces, and restaurants into captivating havens that leave a lasting impression on customers and guests alike. Whether you desire a contemporary office layout that fosters collaboration, a retail space that entices customers, or a restaurant with an enchanting ambiance, we bring creativity and expertise to every project.
-
-                </p>
+                <div className="mt-8">
+                <Link 
+                href="tel:7026253387"
+                    className="inline-flex rounded-md bg-[#0B0D40] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#968FA6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Call Us Now
+                  </Link>
+                </div>
+                </div>
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                 Revamp Your Space: Where Renovation Meets Innovation!

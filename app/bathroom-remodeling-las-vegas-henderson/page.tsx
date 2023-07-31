@@ -42,12 +42,13 @@ export default function BathroomRemodeling() {
                 each endeavor.
               </p>
 
-              <p className="mt-2 text-md tracking-tight text-slate-900">
+              <div className="mt-2 text-md tracking-tight text-slate-900">
                 We firmly believe that your home should be an authentic
                 reflection of your unique personality and style. That's why
                 we're passionate about transforming bathrooms into luxurious
                 oases that perfectly suit your preferences.
-              </p>
+                
+              </div>
 
               <div className="mt-10 flex">
               <CallForFreeQuote />
