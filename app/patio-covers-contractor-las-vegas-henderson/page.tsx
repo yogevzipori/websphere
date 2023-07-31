@@ -8,11 +8,7 @@ import Image from "next/image";
 
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
-import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.webp";
-import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.webp";
-import Plans1 from "../public/las-vegas-remodeling-contractors.webp";
-import Cover from "../components/cover";
-import Border from "../components/Banner";
+
 import BestKitchen1 from "/public/best-kitchen-contractor-las-vegas-henderson.webp";
 import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.webp";
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.webp";

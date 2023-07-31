@@ -256,12 +256,12 @@ export default function Home() {
                   your expectations.
                 </p>
                 <div className="mt-8">
-                  <a
-                    href="#"
+                <Link
+                href="tel:7026253387"
                     className="inline-flex rounded-md bg-[#968FA6] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#0B0D40] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get a Free Quote
-                  </a>
+                  </Link>
                 </div>
                 <figure className="mt-16 border-l border-gray-200 pl-8 text-gray-600">
                   <blockquote className="text-base leading-7">
