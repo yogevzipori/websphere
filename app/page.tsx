@@ -3,7 +3,13 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
 import Kitchen1 from "../public/las-vegas-kitchen-remodeling-1.webp";
-import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel.webp";
+import HomeRemodel1 from "../public/las-vegas-henderson-home-remodel-renovetaion.jpg";
+import HomeRemodel2 from "../public/las-vegas-henderson-home-remodel.webp";
+import Patio from "../public/las-vegas-henderson-patio-covers-renovetaion.jpg";
+import Commercial from "../public/commercial-tenant-improvements-las-vegas-henderson.jpg";
+import RoomAdd from "../public/room-addition-contractors-las-vegas-henderson.jpeg";
+
+
 import HomeRenovation1 from "../public/home-renovation-las-vegas-henderson-1.webp";
 import BestContractor from "/public/best-remodeling-contractor-las-vegas.webp";
 import Cover from "./components/cover";
@@ -55,7 +61,7 @@ const posts = [
       "Sphere Remodeling, your premier choice in Las Vegas and Henderson for impeccable drywall installations. We deliver durable, smooth surfaces, executed with precision and tailored to your needs. Expect excellence and professionalism in every project." as string,
 
     href: "/patio-covers-contractor-las-vegas-henderson" as string,
-    image: Bathroom1 as StaticImageData,
+    image: Patio as StaticImageData,
   },
 
   {
@@ -66,7 +72,7 @@ const posts = [
       "Sphere Remodeling, your trusted partner in Las Vegas and Henderson for precision flooring installations. We provide a range of durable and stylish flooring options, expertly fitted for a seamless, lasting finish. Quality service tailored to your preferences and executed to the highest standards." as string,
 
     href: "/tenant-improvements-las-vegas-henderson" as string,
-    image: Bathroom1 as StaticImageData,
+    image: Commercial as StaticImageData,
   },
 
   {
@@ -77,7 +83,7 @@ const posts = [
       "Sphere Remodeling, your go-to in Las Vegas and Henderson for seamless garage conversions. We repurpose your garage, creating functional, livable spaces. A cost-effective solution to home expansion." as string,
 
     href: "#" as string,
-    image: Bathroom1 as StaticImageData,
+    image: RoomAdd as StaticImageData,
   },
 ];
 

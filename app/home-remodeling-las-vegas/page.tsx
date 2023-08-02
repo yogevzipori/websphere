@@ -4,8 +4,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import Carousel1 from "../components/carousel/carouselHomePage/carousel";
 import Carousel2 from "../components/carousel/carouselRandom/carousel";
-
+import HomeImprovement from "/public/home-addition-las-vegas-henderson.jpeg";
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
 import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.webp";
@@ -21,6 +22,12 @@ import Plans2 from "/public/kitchen-las-vegas.jpg";
 import HomePageGallery from "../components/gallery/homepage";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Banner from "../components/Banner";
+
+import HomeReno1 from "/public/home-renovation-las-vegas-henderson.jpeg";
+import HomeReno2 from "/public/home-remodeling-las-vegas-henderson-nv.jpeg";
+import HomeReno3 from "/public/las-vegas-henderson-home-remodeling.jpeg";
+import HomeReno4 from "/public/las-vegas-home-remodeling-renovation.jpeg";
+import HomeReno5 from "/public/las-vegas-henderson-home-improvement.jpeg";
 
 export default function KitchenRemodeling() {
   return (
@@ -58,9 +65,10 @@ export default function KitchenRemodeling() {
 
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <Image
-              className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src={BestKitchen1}
-              alt=""
+              className="w-[34rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[44rem]"
+              src={HomeImprovement}
+              alt="Home Improvement and renovation Las Vegas and Henderson"
+             
             />
           </div>
 
@@ -112,7 +120,7 @@ export default function KitchenRemodeling() {
 
       <Banner />
       <div className="px-6">
-        <Carousel2 />
+        <Carousel1 />
       </div>
 
       <div className="overflow-hidden bg-white py-12">
@@ -149,7 +157,7 @@ export default function KitchenRemodeling() {
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 <Image
-                  src={Kitchen1}
+                  src={HomeReno1}
                   alt=""
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
@@ -166,14 +174,14 @@ export default function KitchenRemodeling() {
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
-                    src={BestKitchen2}
+                    src={HomeReno2}
                     alt=""
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
-                    src={BestKitchen3}
+                    src={HomeReno4}
                     alt=""
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />

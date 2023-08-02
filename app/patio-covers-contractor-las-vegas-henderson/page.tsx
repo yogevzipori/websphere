@@ -6,15 +6,16 @@ import Link from "next/link";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Image from "next/image";
 
-import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
-import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
 
-import BestKitchen1 from "/public/best-kitchen-contractor-las-vegas-henderson.webp";
-import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.webp";
-import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.webp";
-import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.webp";
+import Patio1 from "/public/patio-covers-las-vegas-henderson2.jpg";
+import Patio2 from "/public/patio-las-vegas-henderson1.jpg";
+import Patio3 from "/public/patio-covers-las-vegas-henderson.jpg";
+import Patio4 from "/public/patio-covers-las-vegas-henderson1.jpg";
+import Patio5 from "/public/patio-las-vegas-henderson-contractors1.jpg";
+
+
 import Plans2 from "/public/kitchen-las-vegas.jpg";
-import HomePageGallery from "../components/gallery/homepage";
+// import HomePageGallery from "../components/gallery/homepage";
 import Banner from "../components/Banner";
 
 export default function PatioCovers() {
@@ -52,8 +53,8 @@ export default function PatioCovers() {
 
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <Image
-              className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src={BestKitchen1}
+              className="w-[24rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[34rem]"
+              src={Patio1}
               alt=""
             />
           </div>
@@ -86,7 +87,7 @@ export default function PatioCovers() {
           </div>
         </div>
       </div>
-      <HomePageGallery />
+      {/* <HomePageGallery /> */}
 
       <Banner/>
 
@@ -113,7 +114,7 @@ export default function PatioCovers() {
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 
                 <Image
-                  src={Kitchen1}
+                  src={Patio2}
                   alt=""
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
@@ -123,21 +124,21 @@ export default function PatioCovers() {
               <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <Image
-                    src={BestKitchen4}
+                    src={Patio5}
                     alt=""
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
-                    src={BestKitchen2}
+                    src={Patio3}
                     alt=""
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
-                    src={BestKitchen3}
+                    src={Patio4}
                     alt=""
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />

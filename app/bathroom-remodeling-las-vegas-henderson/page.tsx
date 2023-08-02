@@ -6,8 +6,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import Carousel2 from "../components/carousel/carouselRandom/carousel";
+import Carousel3 from "../components/carousel/carouselBathroom/carousel";
+
 
 import Bathroom1 from "/public/las-vegas-bathroom-remodeling-1.webp";
+import Bathroom2 from "/public/bathroom-shower-remodeling-henderson-las-vegas.jpg"
+import Bathroom3 from "/public/bathroom-remodeling-henderson-renovetaion-las-vegas.jpg";
+import Bathroom4 from "/public/bathroom-remodeling-henderson-renovetaion-las-vegas.jpeg";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
 import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.webp";
 import HomeRenovation1 from "/public/home-renovation-las-vegas-henderson-1.webp";
@@ -24,7 +29,6 @@ export default function BathroomRemodeling() {
 
       <div className="overflow-hidden bg-slate-100 py-12">
         <div className="px-4 pb-2">
-          <Carousel2 />
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
@@ -58,8 +62,8 @@ export default function BathroomRemodeling() {
 
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"></div>
             <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-              <img
-                src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
+              <Image
+                src={Bathroom4}
                 alt=""
                 className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 width={1152}
@@ -68,22 +72,22 @@ export default function BathroomRemodeling() {
             </div>
             <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
               <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                <img
-                  src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                <Image
+                  src={Bathroom2}
                   alt=""
                   className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
               <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                <img
-                  src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                <Image
+                  src={Bathroom1}
                   alt=""
                   className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
               <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                <img
-                  src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                <Image
+                  src={Bathroom3}
                   alt=""
                   className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
@@ -92,7 +96,7 @@ export default function BathroomRemodeling() {
           </div>
         </div>
         <div className="px-6 pb-12">
-          <Carousel2 />
+        <Carousel3 />
         </div>
       </div>
       <Banner />
