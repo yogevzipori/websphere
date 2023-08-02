@@ -14,7 +14,7 @@ import HomeRenovation1 from "../public/home-renovation-las-vegas-henderson-1.web
 import BestContractor from "/public/best-remodeling-contractor-las-vegas.webp";
 import Cover from "./components/cover";
 import type { NextPage } from "next";
-import HomePageGallery from "./components/gallery/homepage";
+// import HomePageGallery from "./components/gallery/homepage";
 import Carousel1 from "./components/carousel/carouselHomePage/carousel";
 import Banner from "./components/Banner";
 
@@ -294,7 +294,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <HomePageGallery />
+      {/* <HomePageGallery /> */}
     </div>
   );
 }

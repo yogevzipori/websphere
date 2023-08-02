@@ -19,7 +19,7 @@ import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.we
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.webp";
 import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.webp";
 import Plans2 from "/public/kitchen-las-vegas.jpg";
-import HomePageGallery from "../components/gallery/homepage";
+// import HomePageGallery from "../components/gallery/homepage";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Banner from "../components/Banner";
 

@@ -18,7 +18,7 @@ import BestKitchen2 from "/public/best-kitchen-renovation-las-vegas-henderson.we
 import BestKitchen3 from "/public/best-kitchen-renovation-las-vegas-henderson2.webp";
 import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.webp";
 import Plans2 from "/public/kitchen-las-vegas.jpg";
-import HomePageGallery from "../components/gallery/homepage";
+// import HomePageGallery from "../components/gallery/homepage";
 
 export default function TenantImprovements() {
   return (
@@ -88,7 +88,7 @@ export default function TenantImprovements() {
           </div>
         </div>
       </div>
-      <HomePageGallery />
+      {/* <HomePageGallery /> */}
 
       <Banner />
 
