@@ -5,7 +5,7 @@
 import Link from "next/link";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Image from "next/image";
-import Carousel2 from "../components/carousel/carouselRandom/carousel";
+import CarouselKitchen from "../components/carousel/carouselKitchen/carousel";
 import Bathroom1 from "../public/las-vegas-bathroom-remodeling-1.webp";
 import Kitchen1 from "/public/las-vegas-kitchen-remodeling-1.webp";
 import HomeRemodel1 from "/public/las-vegas-henderson-home-remodel.webp";
@@ -20,6 +20,10 @@ import BestKitchen4 from "/public/best-kitchen-contractor-las-vegas-henderson2.w
 import Plans2 from "/public/kitchen-las-vegas.jpg";
 // import HomePageGallery from "../components/gallery/homepage";
 
+
+
+
+
 export default function KitchenRemodeling() {
   return (
     <div>
@@ -27,7 +31,7 @@ export default function KitchenRemodeling() {
         <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:px-8 ">
           <Image
             src={Plans2}
-            alt=""
+            alt="Las Vegas and Henderson Kitchen Builder and Contractor"
             className="absolute inset-0 -z-10 h-full w-full object-cover"
           
           />
@@ -59,7 +63,7 @@ export default function KitchenRemodeling() {
             <Image
               className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               src={BestKitchen1}
-              alt=""
+              alt="Kitchen Remodeling Las Vegas & Henderson"
             />
           </div>
 
@@ -82,7 +86,7 @@ export default function KitchenRemodeling() {
                   </Link>
                 </div>
                 </div>
-                <Carousel2 />
+                <CarouselKitchen />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   We're more than just a kitchen remodeling company
@@ -102,13 +106,16 @@ export default function KitchenRemodeling() {
           </div>
         </div>
       </div>
-      <div className="px-6 pb-12">
-      <Carousel2 />
-      </div>
+      {/* <div className="px-6 pb-12">
+      </div> */}
 
       <Banner/>
 
       <div className="overflow-hidden bg-white py-12">
+              <div className="px-4 mb-8">
+
+<CarouselKitchen />
+</div>
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-2">
@@ -122,7 +129,7 @@ export default function KitchenRemodeling() {
                 work with you every step of the way to ensure that your new
                 kitchen is perfect for you and your family.
               </p>
-              <p className="mt-2 text-md tracking-tight text-slate-900">
+              <p className="mt-4 text-md tracking-tight text-slate-900">
              
                   From kitchen remodeling to general home renovations, we bring
                   unrivaled craftsmanship and passion to every project. Imagine
@@ -143,7 +150,7 @@ export default function KitchenRemodeling() {
                 
                 <Image
                   src={Kitchen1}
-                  alt=""
+                  alt="Kichen Contractor Las Vegas & Henderson"
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
                   height={400}
@@ -153,21 +160,21 @@ export default function KitchenRemodeling() {
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <Image
                     src={BestKitchen4}
-                    alt=""
+                    alt="Kitchen remodeling contractor Las Vegas & Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
                     src={BestKitchen2}
-                    alt=""
+                    alt="Kitchen remodeling contractor Las Vegas & Henderson"
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
                     src={BestKitchen3}
-                    alt=""
+                    alt="Kitchen remodeling contractor Las Vegas & Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
@@ -175,9 +182,11 @@ export default function KitchenRemodeling() {
             </div>
           </div>
         </div>
-        <div className="px-96 pb-12">
-      <Carousel2 />
+        <div className="px-4 pb-12">
+
+      <CarouselKitchen />
       </div>
+   
       </div>
 
     </div>

@@ -6,7 +6,7 @@ import CallUsNow from "./callUsNow/callNow";
 
 export default function Banner() {
     return (
-      <div className="bg-slate-100">
+      <div className="bg-slate-100 mt-12">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
           <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
           Ready to Schedule? 

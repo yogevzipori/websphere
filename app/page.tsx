@@ -8,14 +8,15 @@ import HomeRemodel2 from "../public/las-vegas-henderson-home-remodel.webp";
 import Patio from "../public/las-vegas-henderson-patio-covers-renovetaion.jpg";
 import Commercial from "../public/commercial-tenant-improvements-las-vegas-henderson.jpg";
 import RoomAdd from "../public/room-addition-contractors-las-vegas-henderson.jpeg";
-
-
 import HomeRenovation1 from "../public/home-renovation-las-vegas-henderson-1.webp";
 import BestContractor from "/public/best-remodeling-contractor-las-vegas.webp";
 import Cover from "./components/cover";
 import type { NextPage } from "next";
 // import HomePageGallery from "./components/gallery/homepage";
 import Carousel1 from "./components/carousel/carouselHomePage/carousel";
+import Carousel2 from "./components/carousel/carouselRandom/carousel";
+import Carousel3 from "./components/carousel/carouselBathroom/carousel";
+import CarouselKitchen from "./components/carousel/carouselKitchen/carousel";
 import Banner from "./components/Banner";
 
 /* eslint-disable react/no-unescaped-entities */
@@ -192,10 +193,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white py-12 sm:py-8 ">
+        <div className="bg-white py-12 sm:py-4 ">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="mt-2 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
+              <h2 className="mt-8 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                 We are a full-service residential design and remodeling service
               </h2>
               <p className="mt-2 text-md font-bold tracking-tight text-slate-900 sm:text-xl">
@@ -216,7 +217,7 @@ export default function Home() {
                       {post.image && (
                         <Image
                           src={post.image}
-                          alt="Description"
+                          alt="Sphere Remodeling Las Vegas and Henderson services"
                           className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                           width={300}
                           height={200}
@@ -246,6 +247,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+        <div className="px-24 pb-12">
+
+<CarouselKitchen />
+</div>
 
       <Banner/>
 
@@ -293,6 +298,10 @@ export default function Home() {
             />
           </div>
         </div>
+          <div className="px-4 mb-2">
+
+<Carousel3 />
+</div>
       </div>
       {/* <HomePageGallery /> */}
     </div>
