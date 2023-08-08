@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import Image, { StaticImageData } from "next/image";
 
 import Logo from "../../public/sphere-remodeling-logo.png";
+import Link from "next/link";
 
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
@@ -26,49 +27,57 @@ import {
 const services = [
   {
     name: "Home Remodeling",
-    description: "Sphere Remodeling transforms your living space in Las Vegas and Henderson. We deliver elegant, functional designs tailored to you",
-    href: "/home-remodeling-las-vegas", 
+    description:
+      "Sphere Remodeling transforms your living space in Las Vegas and Henderson. We deliver elegant, functional designs tailored to you",
+    href: "/home-remodeling-las-vegas",
     // icon: ChartPieIcon,
   },
   {
     name: "Kitchen Remodeling",
-    description: "Reinvent your kitchen with Sphere Remodeling, where modern elegance meets practicality. Experience beauty and function in one transformation",
+    description:
+      "Reinvent your kitchen with Sphere Remodeling, where modern elegance meets practicality. Experience beauty and function in one transformation",
     href: "/kitchen-remodeling-las-vegas-henderson",
     // icon: CursorArrowRaysIcon,
   },
   {
     name: "Bathroom Remodeling",
-    description: "Remake your bathroom with Sphere Remodeling, where style meets function. With 25 years of experience, we create spaces that are uniquely yours",
+    description:
+      "Remake your bathroom with Sphere Remodeling, where style meets function. With 25 years of experience, we create spaces that are uniquely yours",
     href: "/bathroom-remodeling-las-vegas-henderson",
     // icon: FingerPrintIcon,
   },
   {
     name: "Patio Covers",
-    description: "Experience enhanced outdoor living with Sphere Remodeling custom patio covers, tailored for style and resilience in Las Vegas and Henderson's unique climates",
+    description:
+      "Experience enhanced outdoor living with Sphere Remodeling custom patio covers, tailored for style and resilience in Las Vegas and Henderson's unique climates",
     href: "/patio-covers-contractor-las-vegas-henderson",
     // icon: SquaresPlusIcon,
   },
   {
     name: "Commercial Tenant Improvements ",
-    description: "Optimize your commercial space with Sphere Remodeling in Las Vegas and Henderson. We tailor tenant improvements for functionality and appeal",
+    description:
+      "Optimize your commercial space with Sphere Remodeling in Las Vegas and Henderson. We tailor tenant improvements for functionality and appeal",
     href: "/tenant-improvements-las-vegas-henderson",
     // icon: SquaresPlusIcon,
   },
   {
     name: "Drywall and Framing",
-    description: "Experience precision and quality with Sphere Remodeling drywall and framing services. Our Las Vegas and Henderson expert team craft robust, seamless structures tailored to your space",
+    description:
+      "Experience precision and quality with Sphere Remodeling drywall and framing services. Our Las Vegas and Henderson expert team craft robust, seamless structures tailored to your space",
     href: "#",
     // icon: SquaresPlusIcon,
   },
   {
     name: "Doors and Trim",
-    description: "Add elegance with Sphere Remodeling custom doors and trim in Las Vegas and Henderson. Crafted to reflect your style, they complement any space",
+    description:
+      "Add elegance with Sphere Remodeling custom doors and trim in Las Vegas and Henderson. Crafted to reflect your style, they complement any space",
     href: "#",
     // icon: SquaresPlusIcon,
   },
   {
     name: "Room Additions",
-    description: "Expand your living area with Sphere Remodeling's room additions in Las Vegas and Henderson. We tailor each addition to fit seamlessly with your existing space",
+    description:
+      "Expand your living area with Sphere Remodeling's room additions in Las Vegas and Henderson. We tailor each addition to fit seamlessly with your existing space",
     href: "#",
     // icon: SquaresPlusIcon,
   },
@@ -87,24 +96,23 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    
     <header className="relative isolate z-10 bg-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/">
             <span className="sr-only">Sphere Remodeling</span>
+
             <Image
               // className="h-56 w-56"
               src={Logo}
-              alt=""
+              alt="Sphere Remodeling Logo"
               width={250}
               height={210}
-            
             />
-          </a>
+          </Link>
         </div>
 
         <div className="flex lg:hidden">
@@ -119,7 +127,7 @@ export default function NavBar() {
         </div>
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
+        <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             Home
           </a>
           <Popover>
@@ -148,7 +156,7 @@ export default function NavBar() {
                       className="group relative rounded-lg text-sm leading-6 hover:bg-gray-50"
                     >
                       {/* <div className="flex h-11 w-11 items-center justify-center rounded-lg group-hover:bg-white"> */}
-                        {/* <item.icon
+                      {/* <item.icon
                           className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
                           aria-hidden="true"
                         /> */}
@@ -187,10 +195,16 @@ export default function NavBar() {
             </Transition>
           </Popover>
 
-          <a href="/about-sphere-remodeling-construction-las-vegas-henderson" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/about-sphere-remodeling-construction-las-vegas-henderson"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             About
           </a>
-          <a href="/contact-sphere-remodeling" className="text-sm font-semibold leading-6 text-gray-900">
+          <a
+            href="/contact-sphere-remodeling"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Contact Us
           </a>
         </Popover.Group>
@@ -211,7 +225,6 @@ export default function NavBar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-         
             </a>
             <button
               type="button"
@@ -226,7 +239,7 @@ export default function NavBar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Home
@@ -294,7 +307,3 @@ export default function NavBar() {
     </header>
   );
 }
-
-
-
-
