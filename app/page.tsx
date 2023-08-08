@@ -153,7 +153,7 @@ export default function Home() {
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                 <Image
                   src={HomeRenovation1}
-                  alt="Description"
+                  alt="Las Vegas and Henderson home remodeling and renovation"
                   className="object-cover object-center"
                   width={500}
                   height={400}
@@ -164,13 +164,7 @@ export default function Home() {
             <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
               {incentives.map((incentive) => (
                 <div key={incentive.name} className="sm:flex lg:block">
-                  {/* <div className="sm:flex-shrink-0">
-                    <img
-                      className="h-16 w-16"
-                      src={incentive.imageSrc}
-                      alt=""
-                    />
-                  </div> */}
+                 
                   <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                     <h3 className="text-md font-medium text-slate-900">
                       {incentive.name}
@@ -291,7 +285,7 @@ export default function Home() {
             </div>
             <Image
               src={BestContractor}
-              alt="Product screenshot"
+              alt="Best remodeling contractor in Las Vegas and Henderson"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
               width={2432}
               height={1442}
@@ -303,7 +297,6 @@ export default function Home() {
 <Carousel3 />
 </div>
       </div>
-      {/* <HomePageGallery /> */}
     </div>
   );
 }

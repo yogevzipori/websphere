@@ -64,7 +64,7 @@ export default function BathroomRemodeling() {
             <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
               <Image
                 src={Bathroom4}
-                alt=""
+                alt="Best bathroom remodeling contractor in Las Vegas and Henderson"
                 className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 width={1152}
                 height={842}
@@ -74,21 +74,21 @@ export default function BathroomRemodeling() {
               <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                 <Image
                   src={Bathroom2}
-                  alt=""
+                  alt="Bathroom and Shower remodeling contractor in Las Vegas and Henderson"
                   className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
               <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                 <Image
                   src={Bathroom1}
-                  alt=""
+                  alt="Las Vegas and Henderson bathroom remodeling contractor"
                   className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
               <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                 <Image
                   src={Bathroom3}
-                  alt=""
+                  alt="Bathroom contractor in Las Vegas and Henderson"
                   className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>

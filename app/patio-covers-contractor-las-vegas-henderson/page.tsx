@@ -55,7 +55,7 @@ export default function PatioCovers() {
             <Image
               className="w-[24rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[34rem]"
               src={Patio1}
-              alt=""
+              alt="Patios covers in Las Vegas and Henderson"
             />
           </div>
 
@@ -115,7 +115,7 @@ export default function PatioCovers() {
                 
                 <Image
                   src={Patio2}
-                  alt=""
+                  alt="Patio and outdoor living in Las Vegas and Henderson"
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
                   height={400}
@@ -125,21 +125,21 @@ export default function PatioCovers() {
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <Image
                     src={Patio5}
-                    alt=""
+                    alt="Patios and outdoor kitchens in Las Vegas and Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
                     src={Patio3}
-                    alt=""
+                    alt="Patio additions in Las Vegas and Henderson"
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
                     src={Patio4}
-                    alt=""
+                    alt="Las Vegas and Henderson patio covers"
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>

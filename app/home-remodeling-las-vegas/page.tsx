@@ -22,6 +22,7 @@ import Plans2 from "/public/kitchen-las-vegas.jpg";
 // import HomePageGallery from "../components/gallery/homepage";
 import CallForFreeQuote from "../components/freeQuoteCall/freeQuote";
 import Banner from "../components/Banner";
+import CarouselKitchen from "../components/carousel/carouselKitchen/carousel";
 
 import HomeReno1 from "/public/home-renovation-las-vegas-henderson.jpeg";
 import HomeReno2 from "/public/home-remodeling-las-vegas-henderson-nv.jpeg";
@@ -99,7 +100,7 @@ export default function KitchenRemodeling() {
                   </Link>
                 </div>
                 </div>
-                <Carousel2 />
+                <CarouselKitchen />
 
                 <h2 className="mt-14 text-lg font-bold tracking-tight text-slate-900 sm:text-3xl">
                   Unlock the hidden potential of your entire home with our
@@ -158,7 +159,7 @@ export default function KitchenRemodeling() {
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 <Image
                   src={HomeReno1}
-                  alt=""
+                  alt="Home renovation and remodeling Las Vegas and Henderson"
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
                   height={400}
@@ -168,21 +169,21 @@ export default function KitchenRemodeling() {
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <Image
                     src={BestKitchen4}
-                    alt=""
+                    alt="Room addition and remodeling Las Vegas and Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
                     src={HomeReno2}
-                    alt=""
+                    alt="Garage conversion and remodeling Las Vegas and Henderson"
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
                     src={HomeReno4}
-                    alt=""
+                    alt="Patio cover and remodeling Las Vegas and Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>

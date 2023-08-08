@@ -27,7 +27,7 @@ export default function TenantImprovements() {
         <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:px-8 ">
           <Image
             src={Plans2}
-            alt=""
+            alt="Extensive experience in tenant improvements in Las Vegas and Henderson"
             className="absolute inset-0 -z-10 h-full w-full object-cover"
           
           />
@@ -56,7 +56,7 @@ export default function TenantImprovements() {
             <Image
               className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               src={BestKitchen1}
-              alt=""
+              alt="Henderson and Las Vegas best tenant remodeling contractor"
             />
           </div>
 
@@ -118,7 +118,7 @@ export default function TenantImprovements() {
                 
                 <Image
                   src={Kitchen1}
-                  alt=""
+                  alt="Commercial remodeling contractor in Las Vegas and Henderson"
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   width={600}
                   height={400}
@@ -128,21 +128,21 @@ export default function TenantImprovements() {
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <Image
                     src={BestKitchen4}
-                    alt=""
+                    alt="Commercial kitchen remodeling contractor in Las Vegas and Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <Image
                     src={BestKitchen2}
-                    alt=""
+                    alt="Comercial renovation contractor in Las Vegas and Henderson"
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
                 <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
                   <Image
                     src={BestKitchen3}
-                    alt=""
+                    alt="Commercial and residential remodeling contractor in Las Vegas and Henderson"
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>

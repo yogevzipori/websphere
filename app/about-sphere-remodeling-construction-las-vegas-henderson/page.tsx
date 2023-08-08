@@ -70,7 +70,7 @@ export default function About() {
             <Image
               className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
               src={Plans1}
-              alt=""
+              alt="The best home remodeling company in Las Vegas and Henderson"
             />
             <div className="relative" aria-hidden="true">
               <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
@@ -82,7 +82,7 @@ export default function About() {
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
         <Image
           src={HomeRenovation1}
-          alt="full home remodeling and renovation in las-vegas"
+          alt="Home remodeling and renovation in las-vegas"
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
         <div
