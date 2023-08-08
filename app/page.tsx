@@ -90,22 +90,22 @@ const posts = [
 const incentives = [
   {
     name: "Free Estimates",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
+    // imageSrc:
+    //   "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
     description:
       "Take the first step towards your dream remodel today! Contact us to schedule your free estimate, and let's bring your vision to life together.",
   },
   {
     name: "1 Year Labore Warranty on Every Project",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
+    // imageSrc:
+    //   "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
     description:
       "Our commitment to excellence extends beyond the completion of the remodeling work. ",
   },
   {
     name: "100% Satisfaction Guarantee",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
+    // imageSrc:
+    //   "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
     description:
       "Our commitment is to ensure that you are fully satisfied with the outcome of your remodeling project.",
   },
@@ -163,15 +163,15 @@ export default function Home() {
             <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
               {incentives.map((incentive) => (
                 <div key={incentive.name} className="sm:flex lg:block">
-                  <div className="sm:flex-shrink-0">
+                  {/* <div className="sm:flex-shrink-0">
                     <img
                       className="h-16 w-16"
                       src={incentive.imageSrc}
                       alt=""
                     />
-                  </div>
+                  </div> */}
                   <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                    <h3 className="text-sm font-medium text-slate-900">
+                    <h3 className="text-md font-medium text-slate-900">
                       {incentive.name}
                     </h3>
                     <p className="mt-2 text-sm text-slate-900 tracking-tight">
